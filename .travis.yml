@@ -8,4 +8,4 @@ solution: JITA.sln
 script:
 - dotnet restore
 - dotnet build
-- dotnet test JITA/JITA.csproj
+- dotnet test web.application/web.application.csproj
