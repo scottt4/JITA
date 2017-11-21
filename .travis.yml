@@ -6,6 +6,7 @@ sudo: false
 solution: JITA.Course.sln
 
 script:
+- cd JITA
 - dotnet restore
 - dotnet build
 - dotnet test web.application/web.application.csproj
